@@ -551,6 +551,7 @@ i(<item:farmersdelight:rich_soil>, "Can be used to plant crops. Crops planted in
 i(<item:farmersdelight:brown_mushroom_colony>, "Can be gotten by planting Brown Mushrooms on Rich Soil under sufficient darkness.");
 i(<item:farmersdelight:red_mushroom_colony>, "Can be gotten by planting Red Mushrooms on Rich Soil under sufficient darkness.");
 i(<item:farmersdelight:skillet>, "Can be placed down or used to cook in a handheld fashion if near a heat source. Also packs a punch as a heavyweight melee weapon.");
+i(<item:farmersdelight:rotten_tomato>, "Randomly gotten from harvesting tomatoes. Can be thrown.");
 
 // Quark Tweaks
 i(<item:minecraft:poisonous_potato>, "Feeding this to a baby animal may poison it and prevent it from growing.");
