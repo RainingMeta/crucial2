@@ -144,14 +144,6 @@ craftingTable.addShapeless("cool_ender_eye",
 		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
 #snip end
 
-// Post-end Structured Crafter
-craftingTable.removeRecipe(crafter);
-craftingTable.addShaped("post_end_crafter", 
-		crafter,  
-		[[piston, pipe, piston],
-		 [booflo_hide, crafting_table, booflo_hide],
-		 [piston, pipe, piston]]);
-
 // Canvas for Sack
 craftingTable.removeRecipe(sack);
 craftingTable.addShaped("canvas_sack", 
@@ -167,14 +159,6 @@ craftingTable.addShaped("organic_planter",
 		[[brick, air, brick],
 		 [brick, organic_compost, brick],
 		 [brick, brick, brick]]);
-
-// Boof Spring Launcher
-craftingTable.removeRecipe(piston_launcher);
-craftingTable.addShaped("boof_launcher", 
-		piston_launcher, 
-		[[iron_ingot, piston, iron_ingot],
-		 [iron_ingot, boof_block, iron_ingot],
-		 [iron_ingot, iron_ingot, iron_ingot]]);
 
 // Atmospheric Trees Recipes
 craftingTable.addShapeless("kousa", kousa_sapling, [mimicream, oak_sapling]);
@@ -273,12 +257,14 @@ craftingTable.addShaped("charred_log",
 		[[charcoal], [logs], [charcoal]]);
 
 // Salmon and Cod Cuts
+craftingTable.removeRecipe(salmon_log);
 craftingTable.addShaped("salmon_cut", 
 		salmon_log * 4, 
 		[[salmon, salmon, salmon], 
 		[salmon, bone_block, salmon], 
 		[salmon, salmon, salmon]]);
 
+craftingTable.removeRecipe(cod_log);
 craftingTable.addShaped("cod_cut", // crl
 		cod_log * 4, 
 		[[cod, cod, cod], 
