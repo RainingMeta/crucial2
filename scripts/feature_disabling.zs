@@ -1,4 +1,7 @@
+import crafttweaker.api.recipe.Replacer;
+
 var cooking = <recipetype:farmersdelight:cooking>;
+var cutting = <recipetype:farmersdelight:cutting>;
 var warping = <recipetype:architects_palette:warping>;
 
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
@@ -534,3 +537,7 @@ tag_carpets.remove(<item:farmersdelight:full_tatami_mat>);
 tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
 
 villagerTrades.removeWanderingTrade(1, <item:supplementaries:flax_seeds>);
+
+Replacer.forTypes(cooking).replace(<item:farmersdelight:wheat_dough>, <item:create:dough>).execute();
+
+Replacer.forTypes(cutting).replace(<item:farmersdelight:wheat_dough>, <item:create:dough>).execute();
