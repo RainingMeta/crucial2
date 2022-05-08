@@ -179,7 +179,7 @@ craftingTable.addShaped("boof_launcher",
 // Atmospheric Trees Recipes
 craftingTable.addShapeless("kousa", kousa_sapling, [mimicream, oak_sapling]);
 craftingTable.addShapeless("aspen", aspen_sapling, [mimicream, birch_sapling]);
-craftingTable.addShapeless("grimwood", grimwood_sapling, [mimicream, spruce_sapling]);
+craftingTable.addShapeless("grimewood", grimwood_sapling, [mimicream, spruce_sapling]);
 
 // Glowing Glass Item Frame
 craftingTable.removeRecipe(glowing_glass_item_frame);
