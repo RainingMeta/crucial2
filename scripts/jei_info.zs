@@ -383,6 +383,7 @@ i(<item:quark:yellow_slime_block>, s);
 s = "This can be right clicked to remove your insomnia level without having to sleep. It also makes a nice sound!";
 i(<item:chimes:bamboo_chimes>, s);
 i(<item:chimes:iron_chimes>, s);
+i(<item:chimes:copper_chimes>, s);
 
 i(<item:chimes:carved_bamboo_chimes>, "Can be acquired by using an Axe on a Bamboo Wind Chime.");
 
