@@ -121,6 +121,38 @@ var planks = <tag:items:minecraft:planks>;
 var drawers = <item:storagedrawers:oak_full_drawers_1>;
 var seed_pouch = <item:quark:seed_pouch>;
 var seed_pouchable = <tag:items:quark:seed_pouch_holdable>;
+var chain = <item:minecraft:chain>;
+var copper = <item:create:copper_ingot>;
+var wooden_slab = <tag:items:minecraft:wooden_slabs>;
+var copper_chime = <item:chimes:copper_chimes>;
+var sunflower = <item:minecraft:sunflower>;
+var bottle = <item:minecraft:glass_bottle>;
+var feeder = <item:alexsmobs:hummingbird_feeder>;
+
+// Copper for Bird Feeder
+craftingTable.removeRecipe(feeder);
+craftingTable.addShaped("copper_feeder", 
+		feeder, 
+		[[air, copper, air],
+		 [copper, bottle, copper],
+		 [sunflower, copper, sunflower]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_copper_feeder_recipe",
+		feeder,
+		[[air, copper, air],
+		 [copper, bottle, copper],
+		 [sunflower, copper, sunflower]]);
+
+// Copper Wind Chime
+craftingTable.addShaped("copper_chime_recipe",
+		copper_chime,
+		[[wooden_slab],
+		 [chain],
+		 [copper]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_copper_chime_recipe",
+		copper_chime,
+		[[wooden_slab],
+		 [chain],
+		 [copper]]);
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
