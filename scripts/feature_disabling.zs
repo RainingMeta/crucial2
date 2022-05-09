@@ -539,5 +539,7 @@ tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
 villagerTrades.removeWanderingTrade(1, <item:supplementaries:flax_seeds>);
 
 Replacer.forTypes(cooking).replace(<item:farmersdelight:wheat_dough>, <item:create:dough>).execute();
-
 Replacer.forTypes(cutting).replace(<item:farmersdelight:wheat_dough>, <item:create:dough>).execute();
+
+cooking.removeRecipe(<item:frozenup:mug_of_chocolate_milk>);
+cooking.removeRecipe(<item:frozenup:mug_of_truffle_hot_chocolate>);
