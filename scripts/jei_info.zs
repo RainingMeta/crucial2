@@ -894,3 +894,11 @@ i(<item:miningmaster:ice_sapphire>, "Grants Frost Walker, Freezing, or Snowpierc
 i(<item:miningmaster:haste_peridot>, "Grants Efficiency, Quick Charge, or Lure, dependent on the item. Most commonly found under jungle biomes.");
 i(<item:miningmaster:lucky_citrine>, "Grants Fortune, Looting, or Luck of the Sea, dependent on the item. Most commonly found under mesa biomes.");
 i(<item:miningmaster:dive_aquamarine>, "Grants Aqua Affinity, Riptide, or Grace, dependent on the item. Most commonly found under ocean biomes.");
+
+s = "Can be used to power beacons.";
+i(<item:miningmaster:fire_ruby_block>, s);
+i(<item:miningmaster:ice_sapphire_block>, s);
+i(<item:miningmaster:spirit_garnet_block>, s);
+i(<item:miningmaster:haste_peridot_block>, s);
+i(<item:miningmaster:lucky_citrine_block>, s);
+i(<item:miningmaster:dive_aquamarine_block>, s);
