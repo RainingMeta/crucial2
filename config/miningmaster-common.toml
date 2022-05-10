@@ -11,9 +11,9 @@ luckyCitrineEnabled = true
 #Determines if Dive Aquamarine will generate.
 diveAquamarineEnabled = true
 #Determines if Heart Rhodonite will generate.
-heartRhodoniteEnabled = true
+heartRhodoniteEnabled = false
 #Determines if Power Pyrite will generate.
-powerPyriteEnabled = true
+powerPyriteEnabled = false
 #Determines if Kinetic Opal will generate.
 kineticOpalEnabled = false
 #Determines if Air Malachite will generate.
