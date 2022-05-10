@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "Rumor has it, new ores that apply enchantments to items using a Smithing Table can be found throught the overworld and nether.$(br2)Supposedly, these ores can apply enchantments that can't be applied through an Enchantment Table!"
+			"text": "Rumor has it, new ores that apply enchantments to items using a Smithing Table can be found throught the overworld.$(br2)Supposedly, these ores can apply enchantments that can't be applied through an Enchantment Table!"
 		},
 		{
 			"type": "quest",
