@@ -2,6 +2,7 @@ import crafttweaker.api.recipe.Replacer;
 
 var cooking = <recipetype:farmersdelight:cooking>;
 var cutting = <recipetype:farmersdelight:cutting>;
+var forging = <recipetype:miningmaster:forging>;
 var warping = <recipetype:architects_palette:warping>;
 
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
@@ -543,3 +544,5 @@ Replacer.forTypes(cutting).replace(<item:farmersdelight:wheat_dough>, <item:crea
 
 cooking.removeRecipe(<item:frozenup:mug_of_chocolate_milk>);
 cooking.removeRecipe(<item:frozenup:mug_of_truffle_hot_chocolate>);
+
+forging.removeAll();
