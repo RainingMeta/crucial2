@@ -81,6 +81,7 @@
     "enchantment.supplementaries.stasis.desc": "Blocks fired from the slingshot will not be affected by gravity.",
     "enchantment.shulker_enchantments.siphon.desc": "Picked up items will go directly into the shulker box.",
     "enchantment.shulker_enchantments.refill.desc": "Refills held block and item stacks from the shulker box inventory.",
+    "enchantment.miningmaster.freezing.desc": "Inflicts slowness on hit.",	
 	
 	"effect.minecraft.absorption.description": "Adds damage absorption (additional hearts that can't be regenerated).",
 	"effect.minecraft.unluck.description": "Can reduce chances of high-quality and more loot.",
