@@ -546,3 +546,8 @@ cooking.removeRecipe(<item:frozenup:mug_of_chocolate_milk>);
 cooking.removeRecipe(<item:frozenup:mug_of_truffle_hot_chocolate>);
 
 forging.removeAll();
+craftingTable.removeRecipe(<item:miningmaster:kinetic_opal_block>);
+craftingTable.removeRecipe(<item:miningmaster:kinetic_opal>);
+craftingTable.removeRecipe(<item:miningmaster:air_malachite_block>);
+craftingTable.removeRecipe(<item:miningmaster:air_malachite>);
+craftingTable.removeRecipe(<item:miningmaster:gem_forge>);
