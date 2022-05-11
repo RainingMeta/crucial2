@@ -21,6 +21,7 @@
 		"supplementaries:safe",
 		"quark:flamerang",
 		"minecraft:lodestone",
-		"alexsmobs:straddleboard"
+		"alexsmobs:straddleboard",
+		"netheritehorsearmor:netherite_horse_armor"
 	]
 }
