@@ -325,6 +325,11 @@ craftingTable.addShaped("canvas_infernal_painting",
 		[[blaze_rod, stick, blaze_rod], 
 		[stick, canvas, stick], 
 		[blaze_rod, stick, blaze_rod]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_canvas_infernal_painting",
+		infernal_painting,
+		[[blaze_rod, stick, blaze_rod], 
+		[stick, canvas, stick], 
+		[blaze_rod, stick, blaze_rod]]);
 
 // Consistent cookies
 craftingTable.removeRecipe(gooseberry_jam_cookie);
