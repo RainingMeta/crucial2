@@ -552,3 +552,5 @@ craftingTable.removeRecipe(<item:miningmaster:kinetic_opal_block>);
 craftingTable.removeRecipe(<item:miningmaster:kinetic_opal>);
 craftingTable.removeRecipe(<item:miningmaster:air_malachite_block>);
 craftingTable.removeRecipe(<item:miningmaster:air_malachite>);
+
+craftingTable.removeRecipe(<item:patchouli:guide_book>);
