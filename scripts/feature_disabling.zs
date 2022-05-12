@@ -554,3 +554,20 @@ craftingTable.removeRecipe(<item:miningmaster:air_malachite_block>);
 craftingTable.removeRecipe(<item:miningmaster:air_malachite>);
 
 craftingTable.removeRecipe(<item:patchouli:guide_book>);
+
+craftingTable.removeRecipe(<item:quark:white_stool>);
+craftingTable.removeRecipe(<item:quark:orange_stool>);
+craftingTable.removeRecipe(<item:quark:magenta_stool>);
+craftingTable.removeRecipe(<item:quark:light_blue_stool>);
+craftingTable.removeRecipe(<item:quark:yellow_stool>);
+craftingTable.removeRecipe(<item:quark:lime_stool>);
+craftingTable.removeRecipe(<item:quark:pink_stool>);
+craftingTable.removeRecipe(<item:quark:gray_stool>);
+craftingTable.removeRecipe(<item:quark:light_gray_stool>);
+craftingTable.removeRecipe(<item:quark:cyan_stool>);
+craftingTable.removeRecipe(<item:quark:purple_stool>);
+craftingTable.removeRecipe(<item:quark:blue_stool>);
+craftingTable.removeRecipe(<item:quark:brown_stool>);
+craftingTable.removeRecipe(<item:quark:green_stool>);
+craftingTable.removeRecipe(<item:quark:red_stool>);
+craftingTable.removeRecipe(<item:quark:black_stool>);
