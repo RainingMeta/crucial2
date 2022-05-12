@@ -1,0 +1,16 @@
+{
+	"name": "Lunar Events",
+	"icon": "minecraft:clock",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there are lunar events that affect everyone in the night. Supposedly, these lunar events not only change the color of the moon, but also provide beneficial effects..."
+		},
+		{
+			"type": "quest",
+			"text": "Discover the rare lunar events."
+		}
+	]
+}
