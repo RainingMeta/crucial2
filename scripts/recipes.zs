@@ -128,6 +128,20 @@ var copper_chime = <item:chimes:copper_chimes>;
 var sunflower = <item:minecraft:sunflower>;
 var bottle = <item:minecraft:glass_bottle>;
 var feeder = <item:alexsmobs:hummingbird_feeder>;
+var vine = <item:minecraft:vine>;
+var hanging_vine = <item:valhelsia_structures:hanging_vines>;
+
+//Hanging Vines Recipe
+craftingTable.addShaped("hanging_vine_recipe",
+		hanging_vine,
+		[[vine],
+		 [vine],
+		 [vine]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_hanging_vine_recipe",
+		hanging_vine,
+		[[vine],
+		 [vine],
+		 [vine]]);
 
 // Copper for Bird Feeder
 craftingTable.removeRecipe(feeder);
