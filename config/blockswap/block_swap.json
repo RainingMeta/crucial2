@@ -6,6 +6,7 @@
     "valhelsia_structures:doused_torch": "minecraft:torch",
     "valhelsia_structures:doused_wall_torch": "minecraft:wall_torch",
     "valhelsia_structures:oak_post": "minecraft:oak_log",
-    "valhelsia_structures:cut_oak_post": "minecraft:oak_log"
+    "valhelsia_structures:cut_oak_post": "minecraft:oak_log",
+    "valhelsia_structures:dungeon_door": "minecraft:air"
   }
 }
