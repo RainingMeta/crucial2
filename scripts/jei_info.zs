@@ -904,7 +904,7 @@ i(<item:miningmaster:lucky_citrine_block>, s);
 i(<item:miningmaster:dive_aquamarine_block>, s);
 
 //Wolves with Armor
-s = "Can be enchanted. Equip by right-clicking it onto your wolf and unequip by shift-right-clicking the armored wolf with an empty hand.";
+s = "Can be enchanted. Equip by right-clicking it onto your wolf and unequip by shift right-clicking the armored wolf with an empty hand.";
 i(<item:wolveswitharmor:leather_wolf_armor>, s);
 i(<item:wolveswitharmor:iron_wolf_armor>, s);
 i(<item:wolveswitharmor:golden_wolf_armor>, s);
