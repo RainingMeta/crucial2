@@ -17,13 +17,12 @@
 		"minecraft:composter",
 		"minecraft:brewing_stand",
 		"minecraft:cauldron",
+		"endergetic:ender_campfire",
 		"environmental:kiln",
 		"environmental:sawmill",
-		"farmersdelight:stove",
 		"farmersdelight:cooking_pot",
 		"farmersdelight:cutting_board",
-		"structuredcrafting:structured_crafter",
-		"endergetic:ender_campfire",
-		"farmersdelight:skillet"
+		"farmersdelight:skillet",
+		"farmersdelight:stove"
 	]
 }
