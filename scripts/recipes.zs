@@ -133,12 +133,12 @@ var hanging_vine = <item:valhelsia_structures:hanging_vines>;
 
 //Hanging Vines Recipe
 craftingTable.addShaped("hanging_vine_recipe",
-		hanging_vine,
+		hanging_vine * 3,
 		[[vine],
 		 [vine],
 		 [vine]]);
 <recipetype:create:mechanical_crafting>.addRecipe("automated_hanging_vine_recipe",
-		hanging_vine,
+		hanging_vine * 3,
 		[[vine],
 		 [vine],
 		 [vine]]);
