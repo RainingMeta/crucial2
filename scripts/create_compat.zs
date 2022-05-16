@@ -729,10 +729,8 @@ stoneCutter.removeRecipe(<item:create:overgrown_dark_scoria>);
 // Overlap Removal ================================================================================
 craftingTable.removeRecipe(<item:supplementaries:turn_table>);
 craftingTable.removeRecipe(<item:supplementaries:spring_launcher>);
-craftingTable.removeRecipe(<item:structuredcrafting:structured_crafter>);
 JEI.hideItem(<item:supplementaries:turn_table>);
 JEI.hideItem(<item:supplementaries:spring_launcher>);
-JEI.hideItem(<item:structuredcrafting:structured_crafter>);
 craftingTable.removeRecipe(<item:quark:white_stool>);
 JEI.addInfo(<item:quark:white_stool>, ["This item cannot be crafted. If you already have one, it can be crafted into a seat, which works in the same way."]);
 craftingTable.removeRecipe(<item:quark:orange_stool>);
