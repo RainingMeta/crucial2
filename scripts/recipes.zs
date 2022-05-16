@@ -40,7 +40,6 @@ var clay_ball = <item:minecraft:clay_ball>;
 var coal = <item:minecraft:coal>;
 var cod = <item:minecraft:cod>;
 var cod_log = <item:architects_palette:cod_log>;
-var crafter = <item:structuredcrafting:structured_crafter>;
 var crafting_table = <item:minecraft:crafting_table>;
 var diamond = <tag:items:forge:gems/diamond>;
 var dried_vanilla_pods = <item:neapolitan:dried_vanilla_pods>;
