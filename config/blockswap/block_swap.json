@@ -7,6 +7,14 @@
     "valhelsia_structures:doused_wall_torch": "minecraft:wall_torch",
     "valhelsia_structures:oak_post": "minecraft:oak_log",
     "valhelsia_structures:cut_oak_post": "minecraft:oak_log",
-    "valhelsia_structures:dungeon_door": "minecraft:air"
+    "valhelsia_structures:dungeon_door": "minecraft:air",
+    "architects_palette:plating_block": "quark:iron_plate",
+    "architects_palette:plating_slab": "quark:iron_plate_slab",
+    "architects_palette:plating_stairs": "quark:iron_plate_stairs",
+    "architects_palette:pipe": "create:chute",
+    "architects_palette:redstone_cage_lantern": "minecraft:air",
+    "architects_palette:twisted_log": "minecraft:dark_oak_log",
+    "architects_palette:twisted_leaves": "minecraft:dark_oak_leaves",
+    "quark:potted_yellow_blossom_sapling": "autumnity:potted_yellow_maple_sapling"
   }
 }
