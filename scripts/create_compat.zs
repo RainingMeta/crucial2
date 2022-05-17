@@ -95,6 +95,14 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:crushing>.addRecipe("gold_ore_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> * 2 % 30, <item:minecraft:cobblestone> % 12], <item:minecraft:gold_ore>);
 <recipetype:create:crushing>.addRecipe("nether_gold_ore_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> * 2 % 30, <item:minecraft:netherrack> % 12], <item:minecraft:nether_gold_ore>);
 
+// Netherite Horse Armor and Wolf Armor
+<recipetype:create:crushing>.addRecipe("netherite_horse_armor_crushing", [<item:charm:netherite_nugget>, <item:minecraft:leather> * 2 % 50, <item:charm:netherite_nugget> % 10, <item:minecraft:string> * 2 % 25], <item:netheritehorsearmor:netherite_horse_armor>);
+<recipetype:create:crushing>.addRecipe("leather_wolf_armor_crushing", [<item:minecraft:leather>, <item:minecraft:leather> % 50], <item:wolveswitharmor:leather_wolf_armor>);
+<recipetype:create:crushing>.addRecipe("iron_wolf_armor_crushing", [<item:minecraft:iron_ingot>, <item:minecraft:leather> % 50, <item:minecraft:iron_nugget> * 2 % 25], <item:wolveswitharmor:iron_wolf_armor>);
+<recipetype:create:crushing>.addRecipe("gold_wolf_armor_crushing", [<item:minecraft:gold_ingot>, <item:minecraft:leather> % 50, <item:minecraft:gold_nugget> * 4 % 25], <item:wolveswitharmor:golden_wolf_armor>);
+<recipetype:create:crushing>.addRecipe("diamond_wolf_armor_crushing", [<item:minecraft:diamond>, <item:minecraft:leather> % 50], <item:wolveswitharmor:diamond_wolf_armor>);
+<recipetype:create:crushing>.addRecipe("netherite_wolf_armor_crushing", [<item:charm:netherite_nugget>, <item:minecraft:leather> % 50], <item:wolveswitharmor:netherite_wolf_armor>);
+
 // Food and Drinks ================================================================================
 <recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
 <recipetype:create:compacting>.addRecipe("neapolitan_chocolate_create", "none", <item:neapolitan:chocolate_bar> * 4, [], [<fluid:create:chocolate> * 250]);
