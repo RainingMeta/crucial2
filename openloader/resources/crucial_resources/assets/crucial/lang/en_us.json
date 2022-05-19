@@ -170,5 +170,7 @@
 	"effect.alexsmobs.orcas_might.description": "Grants increased attack speed after swimming with Orcas.",
 	"effect.alexsmobs.soulsteal.description": "Attacking enemies will have the chance to steal some of their health.",
 	"effect.alexsmobs.sunbird_blessing.description": "Makes falling occur slower, and also makes it easier to fly with an elytra.",
-	"effect.alexsmobs.sunbird_curse.description": "Makes falling occur faster, making it almost impossible to fly with an elytra."
+	"effect.alexsmobs.sunbird_curse.description": "Makes falling occur faster, making it almost impossible to fly with an elytra.",
+	"effect.alexsmobs.poison_resistance.description": "Prevents poison from being applied.",
+	"effect.alexsmobs.bug_pheromones.description": "Makes hostile arthropods neutral to you."
 }
