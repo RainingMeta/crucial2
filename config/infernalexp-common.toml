@@ -9,7 +9,7 @@
 	#Determines if Hoglins will run away from Warpbeetles
 	hoglinFearWarpbeetle = true
 	#Determines if Hogchops will replace Porkchops in Hoglin Drops
-	useHogchops = true
+	useHogchops = false
 	#Determines the speed at which Glowsilk Moths fly
 	#Range: 0.0 ~ 1.7976931348623157E308
 	glowsilkSpeed = 1.3
