@@ -595,3 +595,7 @@ craftingTable.removeRecipe(<item:valhelsia_structures:metal_framed_glass_pane>);
 craftingTable.removeRecipe(<item:valhelsia_structures:paper_wall>);
 
 craftingTable.removeRecipe(<item:supplementaries:planter_rich_soul>);
+
+campfire.removeRecipe(<item:infernalexp:cooked_hogchop>);
+furnace.removeRecipe(<item:infernalexp:cooked_hogchop>);
+smoker.removeRecipe(<item:infernalexp:cooked_hogchop>);
