@@ -293,6 +293,8 @@
 		"architects_palette:runic_glowstone",
 		"supplementaries:deepslate_lamp",
 		"supplementaries:end_stone_lamp",
-		"supplementaries:blackstone_lamp"
+		"supplementaries:blackstone_lamp",
+		"nethers_delight:blackstone_stove",
+		"nethers_delight:propelplant_torch"
 	]
 }
