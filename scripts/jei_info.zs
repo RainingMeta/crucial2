@@ -910,3 +910,15 @@ i(<item:wolveswitharmor:iron_wolf_armor>, s);
 i(<item:wolveswitharmor:golden_wolf_armor>, s);
 i(<item:wolveswitharmor:diamond_wolf_armor>, s);
 i(<item:wolveswitharmor:netherite_wolf_armor>, s);
+
+// Nether's Delight
+i(<item:nethers_delight:mimicarnation>, "Grows on Rich Soul Soil in the dark. Can be used to duplicate a variety of flora and even make Bottles o' Enchanting.");
+i(<item:nethers_delight:hoglin_loin>, "Dropped by Hoglins.");
+i(<item:nethers_delight:blackstone_stove>, "Serves as heat source for a Cooking Pot.");
+i(<item:nethers_delight:hoglin_hide>, "Dropped by Hoglins when killed with a Knife.");
+i(<item:nethers_delight:strider_slice>, "Dropped by Striders when killed with a Knife.");
+i(<item:nethers_delight:propelplant_cane>, "Found in Crimson Forests. Harvest them safely with a Knife. Grow more by planting Propelplant Stems.");
+i(<item:nethers_delight:propelpearl>, "Aquired by shearing a mature Propelplant Stem.");
+i(<item:nethers_delight:crimson_fungus_colony_item>, "Can be gotten by planting Crimson Fungus on Rich Soul Soil.");
+i(<item:nethers_delight:warped_fungus_colony_item>, "Can be gotten by planting Warped Fungus on Rich Soul Soil.");
+i(<item:nethers_delight:rich_soul_soil>, "Can be used to plant Nether crops. Crops planted in this will grow faster, as if bone mealed every now and then.");
