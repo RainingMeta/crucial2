@@ -460,6 +460,54 @@
       "hover_text": "entity.alexsmobs.stradpole"
     },
     {
+      "entity": "alexsmobs:blobfish",
+      "x": 155,
+      "y": 70,
+      "page" : 1,
+      "scale": 1.2,
+      "entity_scale": 1.7,
+      "offset_x": -1,
+      "offset_y": -11,
+      "linked_page": "blobfish.json",
+      "hover_text": "entity.alexsmobs.blobfish"
+    },
+    {
+      "entity": "alexsmobs:bald_eagle",
+      "x": 35,
+      "y": 100,
+      "page" : 1,
+      "scale": 1.2,
+      "entity_scale": 1.2,
+      "offset_x": 1,
+      "offset_y": -6,
+      "linked_page": "bald_eagle.json",
+      "hover_text": "entity.alexsmobs.bald_eagle"
+    },
+    {
+      "entity": "alexsmobs:cockroach",
+      "x": 65,
+      "y": 100,
+      "page" : 1,
+      "scale": 1.2,
+      "entity_scale": 1.5,
+      "offset_x": 0,
+      "offset_y": -7,
+      "linked_page": "cockroach.json",
+      "hover_text": "entity.alexsmobs.cockroach"
+    },
+    {
+      "entity": "alexsmobs:centipede_head",
+      "x": 95,
+      "y": 100,
+      "page" : 1,
+      "scale": 1.2,
+      "entity_scale": 1.1,
+      "offset_x": -3,
+      "offset_y": -10,
+      "linked_page": "cave_centipede.json",
+      "hover_text": "entity.alexsmobs.centipede_head"
+    },
+    {
       "entity": "alexsmobs:emu",
       "x": 125,
       "y": 70,
