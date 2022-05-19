@@ -593,3 +593,5 @@ craftingTable.removeRecipe(<item:valhelsia_structures:cut_crimson_post>);
 craftingTable.removeRecipe(<item:valhelsia_structures:metal_framed_glass>);
 craftingTable.removeRecipe(<item:valhelsia_structures:metal_framed_glass_pane>);
 craftingTable.removeRecipe(<item:valhelsia_structures:paper_wall>);
+
+craftingTable.removeRecipe(<item:supplementaries:planter_rich_soul>);
