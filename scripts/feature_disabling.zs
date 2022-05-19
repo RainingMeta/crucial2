@@ -290,8 +290,6 @@ craftingTable.removeRecipe(<item:buzzier_bees:wither_rose_scented_candle>);
 craftingTable.removeRecipe(<item:buzzier_bees:yellow_hibiscus_scented_candle>);
 craftingTable.removeRecipe(<item:buzzier_bees:yucca_flower_scented_candle>);
 
-craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
-
 // Remove Blossom Saplings from Saplings tag
 // This prevents them from showing up in the Environmental Carpenter villager
 var tag = <tag:items:minecraft:saplings>;
