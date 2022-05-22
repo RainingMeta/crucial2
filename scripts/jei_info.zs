@@ -711,8 +711,6 @@ i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of s
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
 i(<item:quark:music_disc_endermosh>, "Can be acquired from chests in End Cities");
 
-i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
-
 i(<item:supplementaries:blackboard>, "You can draw in this.");
 i(<item:supplementaries:clock_block>, "Tells the time. Observers and comparators can interact with it.");
 i(<item:supplementaries:crank>, "Like a lever, but with 16 different states.");
