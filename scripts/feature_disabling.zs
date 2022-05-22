@@ -124,14 +124,8 @@ craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_soul_lantern_blo
 craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_lantern_block>);
 craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_soul_lantern_block>);
 
-craftingTable.removeRecipe(<item:alexsmobs:fish_oil>);
-craftingTable.removeRecipe(<item:alexsmobs:poison_bottle>);
-craftingTable.removeRecipe(<item:alexsmobs:komodo_spit_bottle>);
-craftingTable.removeRecipe(<item:alexsmobs:centipede_leggings>);
 craftingTable.removeRecipe(<item:alexsmobs:banner_pattern_new_mexico>);
 craftingTable.removeRecipe(<item:alexsmobs:dimensional_carver>);
-craftingTable.removeRecipe(<item:alexsmobs:falconry_glove>);
-craftingTable.removeRecipe(<item:alexsmobs:falconry_hood>);
 craftingTable.removeRecipe(<item:alexsmobs:mysterious_worm>);
 craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
