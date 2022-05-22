@@ -930,3 +930,6 @@ i(<item:nethers_delight:propelpearl>, "Aquired by shearing a mature Propelplant 
 i(<item:nethers_delight:crimson_fungus_colony_item>, "Can be gotten by planting Crimson Fungus on Rich Soul Soil.");
 i(<item:nethers_delight:warped_fungus_colony_item>, "Can be gotten by planting Warped Fungus on Rich Soul Soil.");
 i(<item:nethers_delight:rich_soul_soil>, "Can be used to plant Nether crops. Crops planted in this will grow faster, as if bone mealed every now and then.");
+
+//Heartstone
+i(<item:heartstone:heartstone>, "Comes in pairs when crafted. Right-clicking the stone sends a trail to whoever is holding the paired stone."); 
