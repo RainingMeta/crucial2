@@ -46,7 +46,7 @@
 		["YUNG's Better Strongholds"."Desert Decorations"."Desert Miscellaneous"]
 			# The spawn rate (chance per chunk) of an abandoned vacation spot spawning.
 			# Default: 1000
-			"Abandoned Vacation Spot Spawn Rate" = 0
+			"Abandoned Vacation Spot Spawn Rate" = 1000
 			# The spawn rate (chance per chunk) of a small ruins spawning.
 			# Default: 1000
 			"Ruins Spawn Rate (Small)" = 1000
