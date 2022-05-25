@@ -14,7 +14,7 @@
 	"Combine Entries" = true
 	#Amount of ticks each entry will be shown for. Set to 0 to only remove entries when space for new ones is needed.
 	#Range: > 0
-	"Display Time" = 150
+	"Display Time" = 450
 	#Make outdated entries slowly move out of the screen instead of disappearing in place.
 	"Move Out Of Screen" = true
 	#Amount of ticks it takes for an entry to move out of the screen. Value cannot be larger than "Display Time".
