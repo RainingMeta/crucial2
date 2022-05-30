@@ -129,7 +129,22 @@ var bottle = <item:minecraft:glass_bottle>;
 var feeder = <item:alexsmobs:hummingbird_feeder>;
 var vine = <item:minecraft:vine>;
 var hanging_vine = <item:valhelsia_structures:hanging_vines>;
+var torch = <item:minecraft:torch>;
+var brass_nug = <item:create:brass_nugget>;
+var brass_lantern = <item:supplementaries:brass_lantern>;
 
+// Brass Lantern Recipe
+craftingTable.addShaped("brass_lantern", 
+		brass_lantern, 
+		[[brass_nug, brass_nug, brass_nug],
+		 [brass_nug, torch, brass_nug],
+		 [brass_nug, brass_nug, brass_nug]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_brass_lantern_recipe",
+		brass_lantern, 
+		[[brass_nug, brass_nug, brass_nug],
+		 [brass_nug, torch, brass_nug],
+		 [brass_nug, brass_nug, brass_nug]]);
+		 
 //Hanging Vines Recipe
 craftingTable.addShaped("hanging_vine_recipe",
 		hanging_vine * 3,
