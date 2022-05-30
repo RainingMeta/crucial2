@@ -591,3 +591,10 @@ craftingTable.removeRecipe(<item:supplementaries:planter_rich_soul>);
 campfire.removeRecipe(<item:infernalexp:cooked_hogchop>);
 furnace.removeRecipe(<item:infernalexp:cooked_hogchop>);
 smoker.removeRecipe(<item:infernalexp:cooked_hogchop>);
+
+furnace.removeRecipe(<item:decorative_winter:oak_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:birch_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:spruce_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:jungle_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:dark_oak_thin_branch>);
