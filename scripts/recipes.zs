@@ -132,6 +132,14 @@ var hanging_vine = <item:valhelsia_structures:hanging_vines>;
 var torch = <item:minecraft:torch>;
 var brass_nug = <item:create:brass_nugget>;
 var brass_lantern = <item:supplementaries:brass_lantern>;
+var crystal = <tag:items:crucial:redirects/beacon_redirect>;
+var arrow = <item:minecraft:arrow>;
+var crystal_arrow = <item:supplementaries:amethyst_arrow>;
+
+//Crystal Arrow Recipe
+craftingTable.addShapeless("crystal_arrow", 
+		crystal_arrow, 
+		[crystal, arrow]);
 
 // Brass Lantern Recipe
 craftingTable.addShaped("brass_lantern", 
