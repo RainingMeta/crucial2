@@ -595,6 +595,7 @@ i(<item:quark:slime_in_a_bucket>, "Right click a tiny slime to capture it. It ge
 
 // Alex's Mobs
 s = "Consult an Animal Dictionary for more information.";
+i(<item:alexsmobs:ancient_dart>, s);
 i(<item:alexsmobs:acacia_blossom>, s);
 i(<item:alexsmobs:bear_fur>, s);
 i(<item:alexsmobs:blood_sac>, s);
