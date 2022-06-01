@@ -203,7 +203,12 @@ craftingTable.addShaped("koi_barrel_fix",
 		[[koi, koi, koi],
 		 [koi, koi, koi],
 		 [koi, koi, koi]]);
-
+<recipetype:create:mechanical_crafting>.addRecipe("automated_koi_barrel",
+		koi_barrel, 
+		[[koi, koi, koi],
+		 [koi, koi, koi],
+		 [koi, koi, koi]]);
+		 
 // Eye of Ender Needs Four Elements
 #snip modloaded caverns_and_chasms
 craftingTable.removeRecipe(ender_eye);
@@ -219,10 +224,20 @@ craftingTable.addShaped("canvas_sack",
 		[[wicks, canvas, wicks],
 		 [canvas, air, canvas],
 		 [canvas, canvas, canvas]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_canvas_sack",
+		sack, 
+		[[wicks, canvas, wicks],
+		 [canvas, air, canvas],
+		 [canvas, canvas, canvas]]);
 
 // Planter with Organic Soil
 craftingTable.removeRecipe(planter);
 craftingTable.addShaped("organic_planter", 
+		planter, 
+		[[brick, air, brick],
+		 [brick, organic_compost, brick],
+		 [brick, brick, brick]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_organic_planter",
 		planter, 
 		[[brick, air, brick],
 		 [brick, organic_compost, brick],
@@ -282,6 +297,11 @@ craftingTable.addShaped("candelabra_candles",
 		[[candles, candles, candles],
 		 [gold_ingot, gold_ingot, gold_ingot],
 		 [air, gold_ingot, air]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_candelabra",
+		candelabra, 
+		[[candles, candles, candles],
+		 [gold_ingot, gold_ingot, gold_ingot],
+		 [air, gold_ingot, air]]);
 
 // Recycle Paraglider
 craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
@@ -289,6 +309,11 @@ craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
 // Spyglass
 craftingTable.removeRecipe(spyglass);
 craftingTable.addShaped("spyglass_crystals", 
+		spyglass, 
+		[[air, gold_ingot, prismarine_crystals],
+		 [gold_ingot, prismarine_crystals, gold_ingot],
+		 [leather, gold_ingot, air]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_spyglass",
 		spyglass, 
 		[[air, gold_ingot, prismarine_crystals],
 		 [gold_ingot, prismarine_crystals, gold_ingot],
@@ -317,10 +342,17 @@ craftingTable.addShaped("packed_ice_bricks",
 		ice_bricks * 4, 
 		[[polished_packed_ice, polished_packed_ice],
 		 [polished_packed_ice, polished_packed_ice]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_ice_bricks",
+		ice_bricks * 4, 
+		[[polished_packed_ice, polished_packed_ice],
+		 [polished_packed_ice, polished_packed_ice]]);
 
 // Charcoal Block -> Charred Log
 craftingTable.removeRecipe(charcoal_block);
 craftingTable.addShaped("charred_log", 
+		charcoal_block, 
+		[[charcoal], [logs], [charcoal]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_charcoal_block",
 		charcoal_block, 
 		[[charcoal], [logs], [charcoal]]);
 
@@ -331,9 +363,19 @@ craftingTable.addShaped("salmon_cut",
 		[[salmon, salmon, salmon], 
 		[salmon, bone_block, salmon], 
 		[salmon, salmon, salmon]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_salmon_log",
+		salmon_log * 4, 
+		[[salmon, salmon, salmon], 
+		[salmon, bone_block, salmon], 
+		[salmon, salmon, salmon]]);
 
 craftingTable.removeRecipe(cod_log);
 craftingTable.addShaped("cod_cut", // crl
+		cod_log * 4, 
+		[[cod, cod, cod], 
+		[cod, bone_block, cod], 
+		[cod, cod, cod]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_cod_log",
 		cod_log * 4, 
 		[[cod, cod, cod], 
 		[cod, bone_block, cod], 
@@ -346,10 +388,19 @@ craftingTable.addShaped("cactus_paste_olivestone",
 		[[stone_bricks, stone_bricks, stone_bricks], 
 		[stone_bricks, cactus_paste, stone_bricks], 
 		[stone_bricks, stone_bricks, stone_bricks]]);
-
+<recipetype:create:mechanical_crafting>.addRecipe("automated_olivestone",
+		olivestone_bricks * 8, 
+		[[stone_bricks, stone_bricks, stone_bricks], 
+		[stone_bricks, cactus_paste, stone_bricks], 
+		[stone_bricks, stone_bricks, stone_bricks]]);
+		
 // Blank Acacia Totem as Default
 craftingTable.removeByName("architects_palette:grinning_acacia_totem");
 craftingTable.addShaped("blank_acacia_totem", 
+		blank_acacia_totem * 2, 
+		[[stick, stripped_acacia_log, stick], 
+		[air, stripped_acacia_log, air]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_blank_acacia_totem",
 		blank_acacia_totem * 2, 
 		[[stick, stripped_acacia_log, stick], 
 		[air, stripped_acacia_log, air]]);
@@ -403,10 +454,17 @@ craftingTable.addShaped("basalt_tiles_from_bricks",
 		basalt_tiles * 4,
 		[[basalt_bricks, basalt_bricks],
 		 [basalt_bricks, basalt_bricks]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_basalt_tiles",
+		basalt_tiles * 4,
+		[[basalt_bricks, basalt_bricks],
+		 [basalt_bricks, basalt_bricks]]);
 
 // Basalt brick slab recipe fix
 craftingTable.removeRecipe(basalt_brick_slab);
 craftingTable.addShaped("basalt_brick_slab_fix",
+		basalt_brick_slab * 6,
+		[[basalt_bricks, basalt_bricks, basalt_bricks]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_basalt_brick_slab",
 		basalt_brick_slab * 6,
 		[[basalt_bricks, basalt_bricks, basalt_bricks]]);
 
@@ -423,10 +481,20 @@ craftingTable.addShaped("drawers_with_iron",
 		[[iron_ingot, planks, iron_ingot],
 		[air, chests, air],
 		[iron_ingot, planks, iron_ingot]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_drawers_with_iron",
+		drawers,
+		[[iron_ingot, planks, iron_ingot],
+		[air, chests, air],
+		[iron_ingot, planks, iron_ingot]]);
 
 // Seed Pouch with Leather
 craftingTable.removeRecipe(seed_pouch);
 craftingTable.addShaped("seed_pouch_leather",
+		seed_pouch,
+		[[air, _string, air],
+		[leather, seed_pouchable, leather],
+		[air, leather, air]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_seed_pouch",
 		seed_pouch,
 		[[air, _string, air],
 		[leather, seed_pouchable, leather],
