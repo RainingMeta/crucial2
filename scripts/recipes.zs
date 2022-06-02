@@ -140,6 +140,7 @@ var crystal_arrow = <item:supplementaries:amethyst_arrow>;
 craftingTable.addShapeless("crystal_arrow", 
 		crystal_arrow, 
 		[crystal, arrow]);
+<recipetype:create:mixing>.addRecipe("automatic_crystal_arrow", "none", crystal_arrow, [crystal, arrow]);
 
 // Brass Lantern Recipe
 craftingTable.addShaped("brass_lantern", 
@@ -216,6 +217,7 @@ craftingTable.addShapeless("cool_ender_eye",
 		ender_eye, 
 		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
 #snip end
+<recipetype:create:mixing>.addRecipe("automatic_ender_eye", "none", ender_eye, [ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
 
 // Canvas for Sack
 craftingTable.removeRecipe(sack);
@@ -244,16 +246,21 @@ craftingTable.addShaped("organic_planter",
 		 [brick, brick, brick]]);
 
 // Atmospheric Trees Recipes
-craftingTable.addShapeless("kousa", kousa_sapling, [mimicream, oak_sapling]);
-craftingTable.addShapeless("aspen", aspen_sapling, [mimicream, birch_sapling]);
-craftingTable.addShapeless("grimewood", grimwood_sapling, [mimicream, spruce_sapling]);
+craftingTable.addShapeless("kousa_mimicream", kousa_sapling, [mimicream, oak_sapling]);
+<recipetype:create:mixing>.addRecipe("automatic_kousa", "none", kousa_sapling, [mimicream, oak_sapling]);
+craftingTable.addShapeless("aspen_mimicream", aspen_sapling, [mimicream, birch_sapling]);
+<recipetype:create:mixing>.addRecipe("automatic_aspen", "none", aspen_sapling, [mimicream, birch_sapling]);
+craftingTable.addShapeless("grimwood_mimicream", grimwood_sapling, [mimicream, spruce_sapling]);
+<recipetype:create:mixing>.addRecipe("automatic_grimwood", "none", grimwood_sapling, [mimicream, spruce_sapling]);
 
 // Glowing Glass Item Frame
 craftingTable.removeRecipe(glowing_glass_item_frame);
 craftingTable.addShapeless("glowink_to_frame", glowing_glass_item_frame, [glass_item_frame, glowing_ink_sac]);
+<recipetype:create:mixing>.addRecipe("automatic_glowing_glass_frame", "none", glowing_glass_item_frame, [glass_item_frame, glowing_ink_sac]);
 
 // Banana
 craftingTable.addShapeless("banana_but_not_a_pain", banana * 2, [banana_bunch]);
+<recipetype:create:mixing>.addRecipe("automatic_banana", "none", banana * 2, [banana_bunch]);
 
 // Make kelp types accessible
 villagerTrades.addWanderingTrade(1, 5, ochre_kelp, 12, 0);
@@ -261,34 +268,44 @@ villagerTrades.addWanderingTrade(1, 5, polar_kelp, 12, 0);
 villagerTrades.addWanderingTrade(1, 5, thorny_kelp, 12, 0);
 villagerTrades.addWanderingTrade(1, 5, tongue_kelp, 12, 0);
 craftingTable.addShapeless("ochre_mimic", ochre_kelp, [mimicream, polar_kelp]);
+<recipetype:create:mixing>.addRecipe("automatic_ochre", "none", ochre_kelp, [mimicream, polar_kelp]);
 craftingTable.addShapeless("polar_mimic", polar_kelp, [mimicream, thorny_kelp]);
+<recipetype:create:mixing>.addRecipe("automatic_polar", "none", polar_kelp, [mimicream, thorny_kelp]);
 craftingTable.addShapeless("thorny_mimic", thorny_kelp, [mimicream, tongue_kelp]);
+<recipetype:create:mixing>.addRecipe("automatic_thorny", "none", thorny_kelp, [mimicream, tongue_kelp]);
 craftingTable.addShapeless("tongue_mimic", tongue_kelp, [mimicream, ochre_kelp]);
+<recipetype:create:mixing>.addRecipe("automatic_tongue", "none", tongue_kelp, [mimicream, ochre_kelp]);
+
 
 // Any item for Animal Dictionary
 craftingTable.removeRecipe(animal_dictionary);
 craftingTable.addShapeless("animal_dictionary_any", 
 		animal_dictionary, 
 		[book, alex_drops]);
+<recipetype:create:mixing>.addRecipe("automatic_animal_dictionary", "none", animal_dictionary, [book, alex_drops]);
 
 // Clay Reversion
 craftingTable.addShapeless("clay_reversion", 
 		clay_ball * 4, 
 		[clay]);
+<recipetype:create:mixing>.addRecipe("automatic_clay_reversion", "none", clay_ball * 4, [clay]);
 
 // Globe to Globe Pattern
 craftingTable.addShapeless("globe_pattern", 
 		globe_pattern, 
 		[paper, globe]);
+<recipetype:create:mixing>.addRecipe("automatic_globe_pattern", "none", globe_pattern, [paper, globe]);
 
 // lol
 craftingTable.addShapeless("tater", 
 		<item:skinnedlanterns:tiny_potato_lantern_block>,
 		[lantern, potato, nether_star, clay_ball]);
+<recipetype:create:mixing>.addRecipe("automatic_tater", "none", <item:skinnedlanterns:tiny_potato_lantern_block>, [lantern, potato, nether_star, clay_ball]);
 
 craftingTable.addShapeless("tater_soul", 
 		<item:skinnedlanterns:tiny_potato_soul_lantern_block>,
 		[soul_lantern, potato, nether_star, clay_ball]);
+<recipetype:create:mixing>.addRecipe("automatic_tater_soul", "none", <item:skinnedlanterns:tiny_potato_soul_lantern_block>, [soul_lantern, potato, nether_star, clay_ball]);
 
 // Candelabra Candles
 craftingTable.removeRecipe(candelabra);
@@ -305,6 +322,7 @@ craftingTable.addShaped("candelabra_candles",
 
 // Recycle Paraglider
 craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
+<recipetype:create:mixing>.addRecipe("automatic_paraglider", "none", canvas * 4, [paraglider]);
 
 // Spyglass
 craftingTable.removeRecipe(spyglass);
@@ -329,12 +347,25 @@ stoneCutter.removeRecipe(chiseled_emerald_ore_bricks);
 stoneCutter.removeRecipe(chiseled_diamond_ore_bricks);
 
 craftingTable.addShapeless("coal_bricks", chiseled_coal_ore_bricks, [chiseled_stone_bricks, coal]);
+<recipetype:create:mixing>.addRecipe("automatic_coal_bricks", "none", chiseled_coal_ore_bricks, [chiseled_stone_bricks, coal]);
+
 craftingTable.addShapeless("lapis_bricks", chiseled_lapis_ore_bricks, [chiseled_stone_bricks, lapis]);
+<recipetype:create:mixing>.addRecipe("automatic_lapis_bricks", "none", chiseled_lapis_ore_bricks, [chiseled_stone_bricks, lapis]);
+
 craftingTable.addShapeless("redstone_bricks", chiseled_redstone_ore_bricks, [chiseled_stone_bricks, redstone]);
+<recipetype:create:mixing>.addRecipe("automatic_redstone_bricks", "none", chiseled_redstone_ore_bricks, [chiseled_stone_bricks, redstone]);
+
 craftingTable.addShapeless("iron_bricks", chiseled_iron_ore_bricks, [chiseled_stone_bricks, raw_iron]);
+<recipetype:create:mixing>.addRecipe("automatic_iron_bricks", "none", chiseled_iron_ore_bricks, [chiseled_stone_bricks, raw_iron]);
+
 craftingTable.addShapeless("gold_bricks", chiseled_gold_ore_bricks, [chiseled_stone_bricks, raw_gold]);
+<recipetype:create:mixing>.addRecipe("automatic_gold_bricks", "none", chiseled_gold_ore_bricks, [chiseled_stone_bricks, raw_gold]);
+
 craftingTable.addShapeless("emerald_bricks", chiseled_emerald_ore_bricks, [chiseled_stone_bricks, emerald]);
+<recipetype:create:mixing>.addRecipe("automatic_emerald_bricks", "none", chiseled_emerald_ore_bricks, [chiseled_stone_bricks, emerald]);
+
 craftingTable.addShapeless("diamond_bricks", chiseled_diamond_ore_bricks, [chiseled_stone_bricks, diamond]);
+<recipetype:create:mixing>.addRecipe("automatic_diamond_bricks", "none", chiseled_diamond_ore_bricks, [chiseled_stone_bricks, diamond]);
 
 // Packed Ice Bricks
 craftingTable.removeRecipe(ice_bricks);
@@ -423,28 +454,55 @@ craftingTable.removeRecipe(gooseberry_jam_cookie);
 craftingTable.addShapeless("gooseberry_jam_cookie_shapeless",
 		gooseberry_jam_cookie * 8,
 		[gooseberry_jam, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_gooseberry", "none", 
+		gooseberry_jam_cookie * 8,
+		[gooseberry_jam, wheat, wheat]);
+
 craftingTable.removeRecipe(vanilla_cookie);
 craftingTable.addShapeless("vanilla_cookie_shapeless",
 		vanilla_cookie * 8,
 		[dried_vanilla_pods, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_vanilla", "none", 
+		vanilla_cookie * 8,
+		[dried_vanilla_pods, wheat, wheat]);
+
 craftingTable.removeRecipe(chocolate_cookie);
 craftingTable.addShapeless("chocolate_cookie_shapeless",
 		chocolate_cookie * 8,
 		[chocolate_bar, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_chocolate", "none", 
+		chocolate_cookie * 8,
+		[chocolate_bar, wheat, wheat]);
+		
 craftingTable.removeRecipe(strawberry_cookie);
 craftingTable.addShapeless("strawberry_cookie_shapeless",
 		strawberry_cookie * 8,
 		[strawberries, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_strawberry", "none", 
+		strawberry_cookie * 8,
+		[strawberries, wheat, wheat]);
+
 craftingTable.removeRecipe(banana_cookie);
 craftingTable.addShapeless("banana_cookie_shapeless",
 		banana_cookie * 8,
 		[banana, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_banana", "none", 
+		banana_cookie * 8,
+		[banana, wheat, wheat]);
+
 craftingTable.removeRecipe(mint_cookie);
 craftingTable.addShapeless("mint_cookie_shapeless",
 		mint_cookie * 8,
 		[mint_leaves, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_mint", "none", 
+		mint_cookie * 8,
+		[mint_leaves, wheat, wheat]);
+
 craftingTable.removeRecipe(adzuki_cookie);
 craftingTable.addShapeless("adzuki_cookie_shapeless",
+		adzuki_cookie * 8,
+		[roasted_adzuki_beans, wheat, wheat]);
+<recipetype:create:mixing>.addRecipe("automatic_adzuki", "none", 
 		adzuki_cookie * 8,
 		[roasted_adzuki_beans, wheat, wheat]);
 
@@ -471,6 +529,9 @@ craftingTable.addShaped("basalt_brick_slab_fix",
 // Syrup in Pancake
 craftingTable.removeRecipe(pancake);
 craftingTable.addShapeless("pancake_with_syrup",
+		pancake * 4,
+		[sugar, milk, wheat, eggs, syrup]);
+<recipetype:create:mixing>.addRecipe("automatic_pancake", "none", 
 		pancake * 4,
 		[sugar, milk, wheat, eggs, syrup]);
 
@@ -502,6 +563,10 @@ craftingTable.addShaped("seed_pouch_leather",
 
 // Honey Sticky Piston
 craftingTable.addShaped("honey_sticky_piston",
+		sticky_piston,
+		[[honey_bottle],
+		[piston]]);
+<recipetype:create:mechanical_crafting>.addRecipe("automated_honey_sticky_piston",
 		sticky_piston,
 		[[honey_bottle],
 		[piston]]);
