@@ -260,7 +260,7 @@ craftingTable.addShapeless("glowink_to_frame", glowing_glass_item_frame, [glass_
 
 // Banana
 craftingTable.addShapeless("banana_but_not_a_pain", banana * 2, [banana_bunch]);
-<recipetype:create:mixing>.addRecipe("automatic_banana", "none", banana * 2, [banana_bunch]);
+<recipetype:create:mixing>.addRecipe("automatic_banana_but_not_a_pain", "none", banana * 2, [banana_bunch]);
 
 // Make kelp types accessible
 villagerTrades.addWanderingTrade(1, 5, ochre_kelp, 12, 0);
