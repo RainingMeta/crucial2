@@ -932,3 +932,8 @@ i(<item:nethers_delight:rich_soul_soil>, "Can be used to plant Nether crops. Cro
 
 //Heartstone
 i(<item:heartstone:heartstone>, "Comes in pairs when crafted. Right-clicking the stone sends a trail to whoever is holding the paired stone."); 
+
+//Arrows
+i(<item:savageandravage:mischief_arrow>, "Summons a friendly creepie when shot.");
+i(<item:neapolitan:bananarrow>, "Those shot with these will slip on a banana peel.");
+i(<item:supplementaries:amethyst_arrow>, "Explodes into crystal shards when shot.");
