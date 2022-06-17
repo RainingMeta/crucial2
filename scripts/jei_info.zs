@@ -937,3 +937,6 @@ i(<item:heartstone:heartstone>, "Comes in pairs when crafted. Right-clicking the
 i(<item:savageandravage:mischief_arrow>, "Summons a friendly creepie when shot.");
 i(<item:neapolitan:bananarrow>, "Those shot with these will slip on a banana peel.");
 i(<item:supplementaries:amethyst_arrow>, "Explodes into crystal shards when shot.");
+
+//Corn
+i(<item:corn_delight:corn>, "Wild patches spawn in Moderate Climates.");
