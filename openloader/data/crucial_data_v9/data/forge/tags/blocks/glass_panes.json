@@ -12,8 +12,12 @@
     "quark:violet_crystal_pane",
     "quark:white_crystal_pane",
     "quark:black_crystal_pane",
-	"quark:paper_wall",
+    "quark:paper_wall",
     "quark:paper_wall_big",
-    "quark:paper_wall_sakura"
+    "quark:paper_wall_sakura",
+    "architects_palette:entwine_bars",
+    "architects_palette:sunmetal_bars",
+    "infernalexp:glow_glass_pane",
+    "infernalexp:quartz_glass_pane"
   ]
 }
