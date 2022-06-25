@@ -1,0 +1,14 @@
+{
+	"name": "New Spider Behavior",
+	"icon": "minecraft:cobweb",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:cobweb",
+            "title": "New Spider Behavior",
+            "text": "$(item)Spiders$() can now climb surfaces realistically, although they can't grab onto $(item)Glazed Terracotta$() or $(item)Ice$()."
+        }
+	]
+}

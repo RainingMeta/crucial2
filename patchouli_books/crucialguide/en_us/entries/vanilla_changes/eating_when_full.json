@@ -1,0 +1,14 @@
+{
+	"name": "Eating When Full",
+	"icon": "minecraft:cooked_beef",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:cooked_beef",
+            "title": "Eating When Full",
+            "text": "You can now eat $(item)Foods$() even if you're full."
+        }
+	]
+}
